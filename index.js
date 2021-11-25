@@ -5,7 +5,7 @@ function updateEmployeeWithKeyAndValue(obj, key, value) {
         streetAddress: '12 Broadway'
 }
 function destructivelyUpdateEmployeeWithKeyAndValue(obj, key, value) {
-    employee [key] = value
+    obj [key] = value
     return employee;
 }
 function deleteFromEmployeeByKey(obj, key, value) {
